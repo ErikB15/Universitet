@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Lab2Exercise2Fel {
-    public static void main(String args[],{
+    public static void main(String args[],
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hej, ange ditt namn!");
         String name = scanner.nextLine(
