@@ -9,11 +9,12 @@ import java.util.Scanner;
  */
 
 public class Lab2Exercise2Fel {
-    public static void main(String args[],
-        Scanner scanner ); new Scanner(System.in);
+    public static void main(String args[]){
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Hej, ange ditt namn!");
-        String name = scanner.nextLine(
-        System.out.println("Ditt namn är ",  name)
+        String name = scanner.nextLine("skriv ditt namn här ");
+        System.out.println("Ditt namn är ",  name);
     }
+}
 
 
